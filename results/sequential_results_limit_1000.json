@@ -1,0 +1,34 @@
+{
+    "modo": "sequencial",
+    "arquivos_csv_encontrados": 23107,
+    "arquivos_processados": 1000,
+    "arquivos_com_erro": 0,
+    "total_reviews": 2173282,
+    "recomendacoes": {
+        "Recommended": 1815221,
+        "Not Recommended": 358061
+    },
+    "temas_positivos": {
+        "gameplay": 132280,
+        "world": 71512,
+        "visuals": 190962,
+        "story": 153354,
+        "soundtrack": 64257,
+        "fun": 216686,
+        "value": 87522
+    },
+    "temas_negativos": {
+        "balance": 7993,
+        "bugs": 40391,
+        "performance": 17432,
+        "content": 32895,
+        "price": 22345,
+        "servers": 12304,
+        "crashes": 8191,
+        "microtransactions": 8576
+    },
+    "tempo_total_segundos": 28.31587710000167,
+    "reviews_por_segundo": 76751.35728004243,
+    "arquivos_por_segundo": 35.315875841258716,
+    "erros": []
+}
