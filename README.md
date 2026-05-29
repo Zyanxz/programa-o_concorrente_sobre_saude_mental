@@ -59,27 +59,27 @@ Isso permite:
 ## Bibliotecas
 
 * multiprocessing
-* concurrent.futures
 * numpy
 * time
-* os
 * csv
 * matplotlib
+* colection.counter
+* time.perf_counter
 
 ---
 
 # Arquitetura do Projeto
 
-# 2. Ambiente Experimental
+# Ambiente Experimental
 
 | Item                        | Descrição                  |
 | --------------------------- | -------------------------- |
-| Processador                 | Intel Core i7-13000H       |
-| Número de núcleos           | 7 Cores / 12 Threads       |
-| Memória RAM                 | 16GB DDR4                  |
+| Processador                 | Rayzen 7-5700X             |
+| Número de núcleos           | 8 Cores / 16 Threads       |
+| Memória RAM                 | 32GB DDR4                  |
 | Sistema Operacional         | Windows 11                 |
 | Linguagem utilizada         | Python                     |
-| Biblioteca de paralelização | MPI4Py                     |
+| Biblioteca de paralelização | Multiprocessing            |
 | Ambiente de execução        | VSCode                     |
 ---
 
@@ -109,7 +109,6 @@ O sistema realiza benchmarking de desempenho.
 * Speedup
 * Eficiência
 * Escalabilidade
-* Uso de CPU
 * Ganho de desempenho
 
 ## Fórmula de Speedup
@@ -119,12 +118,12 @@ Gráfico de Tempo de Execução
 
 ---
 
-# 8. Gráfico de Speedup
+# Gráfico de Speedup
 ![Gráfico Speedup](speedup.png)
 
 ---
 
-# 9. Gráfico de Eficiência
+# Gráfico de Eficiência
 ![Gráfico Eficiência](eficiencia.png)
 
 ---
