@@ -32,7 +32,6 @@ Desenvolver uma aplicação capaz de processar milhares ou milhões de avaliaç�
 * Realizar análise estatística das avaliações.
 * Comparar desempenho serial vs concorrente.
 * Medir speedup e eficiência.
-* Avaliar escalabilidade do sistema.
 
 ---
 
@@ -61,7 +60,6 @@ Isso permite:
 
 * multiprocessing
 * concurrent.futures
-* pandas
 * numpy
 * time
 * os
@@ -92,8 +90,6 @@ O sistema identifica:
 
 * Avaliações positivas
 * Avaliações negativas
-* Frequência de palavras
-* Padrões de comportamento
 * Tendências de satisfação
 
 ## 5. Consolidação dos Resultados
@@ -172,22 +168,11 @@ O projeto também permite comparar diferentes quantidades de processos. (só exe
 
 | Processos | Tempo (s) | Speedup | Eficiência |
 | --------- | --------- | ------- | ---------- |
-| 1         | 120       | 1.0     | 100%       |
-| 2         | 70        | 1.71    | 85%        |
-| 4         | 38        | 3.15    | 78%        |
-| 8         | 22        | 5.45    | 68%        |
-
----
-
-# Possíveis Melhorias Futuras
-
-* Implementar análise de sentimentos com IA.
-* Utilizar processamento distribuído.
-* Criar dashboard web.
-* Adicionar visualização gráfica em tempo real.
-* Implementar filas de processamento.
-* Adicionar banco de dados para persistência.
-* Utilizar Apache Spark.
+| 1         | 381,32    | 1.0     | 100%       |
+| 2         | 189,85    | 2.01    | 100,43%    |
+| 4         | 89,63     | 4.25    | 106,36%    |
+| 8         | 57,37     | 6.65    | 83,08%     |
+| 12        | 50,71     | 7.52    | 62,66%     |
 
 ---
 
@@ -201,7 +186,7 @@ O projeto aborda diversos conceitos importantes:
 * Escalabilidade
 * Benchmarking
 * Big Data
-* Análise de sentimentos
+* Análises pessoais
 * Processamento de linguagem natural
 * Threads e processos
 * Balanceamento de carga
