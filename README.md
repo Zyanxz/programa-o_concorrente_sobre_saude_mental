@@ -70,32 +70,17 @@ Isso permite:
 
 # Arquitetura do Projeto
 
-O sistema é dividido em etapas:
+# 2. Ambiente Experimental
 
-## 1. Leitura do Dataset
-
-Os arquivos contendo avaliações da Steam são carregados para memória.
-
-## 2. Divisão de Tarefas
-
-O dataset é dividido em blocos menores.
-
-## 3. Processamento Concorrente
-
-Cada processo/thread trabalha em uma parte do dataset simultaneamente.
-
-## 4. Análise das Avaliações
-
-O sistema identifica:
-
-* Avaliações positivas
-* Avaliações negativas
-* Tendências de satisfação
-
-## 5. Consolidação dos Resultados
-
-Os resultados processados são reunidos em uma saída final.
-
+| Item                        | Descrição                  |
+| --------------------------- | -------------------------- |
+| Processador                 | Intel Core i7-13000H       |
+| Número de núcleos           | 7 Cores / 12 Threads       |
+| Memória RAM                 | 16GB DDR4                  |
+| Sistema Operacional         | Windows 11                 |
+| Linguagem utilizada         | Python                     |
+| Biblioteca de paralelização | MPI4Py                     |
+| Ambiente de execução        | VSCode                     |
 ---
 
 # Concorrência e Paralelismo
@@ -129,36 +114,18 @@ O sistema realiza benchmarking de desempenho.
 
 ## Fórmula de Speedup
 
-```math
-S = rac{T_{serial}}{T_{paralelo}}
-```
-
-Onde:
-
-* S = Speedup
-* Tserial = tempo serial
-* Tparalelo = tempo paralelo
-
-## Fórmula de Eficiência
-
-```math
-E = rac{S}{P}
-```
-
-Onde:
-
-* E = Eficiência
-* P = número de processos/threads
+Gráfico de Tempo de Execução
+![Gráfico Tempo Execução](tempo_execucao.png)
 
 ---
-# Resultados Esperados
 
-Com o uso de concorrência, espera-se:
+# 8. Gráfico de Speedup
+![Gráfico Speedup](speedup.png)
 
-* Redução significativa do tempo de execução.
-* Melhor aproveitamento da CPU.
-* Escalabilidade para datasets maiores.
-* Melhor desempenho comparado ao processamento serial.
+---
+
+# 9. Gráfico de Eficiência
+![Gráfico Eficiência](eficiencia.png)
 
 ---
 
