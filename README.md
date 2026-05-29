@@ -113,7 +113,7 @@ O sistema realiza benchmarking de desempenho.
 
 ## Fórmula de Speedup
 
-Gráfico de Tempo de Execução
+# Gráfico de Tempo de Execução
 ![Gráfico Tempo Execução](tempo_execucao.png)
 
 ---
