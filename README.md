@@ -175,7 +175,7 @@ Este tipo de solução pode ser utilizado em:
 
 # Conclusão
 
-O projeto demonstra como técnicas de concorrência e paralelismo podem aumentar significativamente o desempenho de aplicações que processam grandes volumes de dados.
+Objetivo do projeto foi paralelisar uma quantidade de dados gigante, concluimos que paralelisar diminui o tempo de analise
 
 Além disso, o sistema mostra na prática como a computação paralela pode ser aplicada em cenários reais de análise de avaliações e mineração de dados.
 
