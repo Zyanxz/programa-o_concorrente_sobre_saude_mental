@@ -237,4 +237,4 @@ O projeto evidencia, na prática, como técnicas de programação concorrente e 
 
 ## Licença
 
-Este projeto foi desenvolvido para fins acadêmicos e está disponível para estudos e aprendizado.
+Este projeto foi desenvolvido para fins acadêmicos e está disponível para estudos e aprendizado. :)
